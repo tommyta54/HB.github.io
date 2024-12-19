@@ -5,14 +5,21 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  color: #333;
+  background-color: #0e1013;
+  color: #f4f4f9;
+  overflow-x: hidden;
 }
 
 /* Navigation Bar */
 .navbar {
   position: fixed;
+  top: 0;
   width: 100%;
   background: #fff;
   border-bottom: 1px solid #eaeaea;
