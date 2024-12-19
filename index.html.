@@ -2,82 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Professional Website</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Link to CSS -->
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <!-- Font Awesome for icons (optional) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Navigation Bar -->
-  <nav class="navbar">
-    <div class="navbar-container">
-      <a href="#" class="logo">MyBrand</a>
-      <ul class="nav-menu">
-        <li><a href="#section1">Home</a></li>
-        <li><a href="#section2">Products</a></li>
-        <li><a href="#section3">Services</a></li>
-        <li><a href="#section4">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <section class="hero">
+  <header class="hero">
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="#" class="logo">MyBrand</a>
+        <ul class="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
     <div class="hero-content">
-      <h1>Experience Innovation</h1>
-      <p>The future is here. Discover what's possible.</p>
-      <a href="#section2" class="cta-button">Explore Now</a>
+      <h1>Hi, I'm Francesco!</h1>
+      <p>A developer who loves building creative solutions.</p>
+      <a href="#projects" class="cta-button">See My Work</a>
     </div>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate developer with a focus on creating impactful digital experiences.
+      Over the years, I've honed my skills in web development, design, and problem-solving.
+    </p>
   </section>
 
-  <!-- Products Section -->
-  <section id="section2" class="products">
-    <h2>Our Products</h2>
-    <div class="product-grid">
-      <!-- Product Item -->
-      <div class="product-item">
-        <img src="https://via.placeholder.com/300x200" alt="Product 1">
-        <h3>Product One</h3>
-        <p>A brief description of the product.</p>
-        <a href="#" class="learn-more">Learn More</a>
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-item">
+        <img src="https://via.placeholder.com/400x250" alt="Project 1">
+        <h3>Project One</h3>
+        <p>A brief description of Project One.</p>
       </div>
-      <!-- Repeat for more products -->
-      <!-- ... -->
-    </div>
-  </section>
-
-  <!-- Services Section -->
-  <section id="section3" class="services">
-    <h2>Our Services</h2>
-    <div class="services-grid">
-      <!-- Service Item -->
-      <div class="service-item">
-        <i class="fas fa-cog"></i>
-        <h3>Service One</h3>
-        <p>A brief description of the service.</p>
+      <div class="project-item">
+        <img src="https://via.placeholder.com/400x250" alt="Project 2">
+        <h3>Project Two</h3>
+        <p>A brief description of Project Two.</p>
       </div>
-      <!-- Repeat for more services -->
-      <!-- ... -->
+      <div class="project-item">
+        <img src="https://via.placeholder.com/400x250" alt="Project 3">
+        <h3>Project Three</h3>
+        <p>A brief description of Project Three.</p>
+      </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="section4" class="contact">
-    <h2>Contact Us</h2>
-    <p>Get in touch for more information.</p>
-    <a href="mailto:info@mybrand.com" class="contact-button">Email Us</a>
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>I'd love to hear from you! Feel free to reach out through email or social media.</p>
+    <a href="mailto:info@mybrand.com" class="contact-button">Email Me</a>
   </section>
 
-  <!-- Footer -->
   <footer>
     <p>&copy; 2024 MyBrand. All rights reserved.</p>
   </footer>
-
-  <!-- Optional JavaScript -->
-  <script src="script.js"></script>
 </body>
 </html>
+
