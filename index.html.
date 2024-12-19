@@ -4,66 +4,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="logo">MyBrand</a>
+      <ul class="nav-menu">
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="webdev.html">Web Development</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
   <header class="hero">
-    <nav class="navbar">
-      <div class="navbar-container">
-        <a href="#" class="logo">MyBrand</a>
-        <ul class="nav-menu">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
     <div class="hero-content">
-      <h1>Hi, I'm Francesco!</h1>
-      <p>A developer who loves building creative solutions.</p>
-      <a href="#projects" class="cta-button">See My Work</a>
+      <h1>Welcome to My Portfolio</h1>
+      <p>Your one-stop hub for all my projects, blogs, and expertise.</p>
+      <a href="portfolio.html" class="cta-button">Explore Portfolio</a>
     </div>
   </header>
 
-  <section id="about" class="about">
-    <h2>About Me</h2>
-    <p>
-      I'm a passionate developer with a focus on creating impactful digital experiences.
-      Over the years, I've honed my skills in web development, design, and problem-solving.
-    </p>
-  </section>
-
-  <section id="projects" class="projects">
-    <h2>Projects</h2>
-    <div class="project-grid">
-      <div class="project-item">
-        <img src="https://via.placeholder.com/400x250" alt="Project 1">
-        <h3>Project One</h3>
-        <p>A brief description of Project One.</p>
+  <!-- Highlights -->
+  <section class="highlights">
+    <h2>What You'll Find</h2>
+    <div class="highlight-grid">
+      <div class="highlight-item">
+        <h3>Beginner Projects</h3>
+        <p>Step into my journey with foundational projects.</p>
       </div>
-      <div class="project-item">
-        <img src="https://via.placeholder.com/400x250" alt="Project 2">
-        <h3>Project Two</h3>
-        <p>A brief description of Project Two.</p>
+      <div class="highlight-item">
+        <h3>Intermediate Projects</h3>
+        <p>See how I’ve leveled up with robust applications.</p>
       </div>
-      <div class="project-item">
-        <img src="https://via.placeholder.com/400x250" alt="Project 3">
-        <h3>Project Three</h3>
-        <p>A brief description of Project Three.</p>
+      <div class="highlight-item">
+        <h3>Advanced Projects</h3>
+        <p>Explore high-end, production-ready solutions.</p>
       </div>
     </div>
   </section>
 
-  <section id="contact" class="contact">
-    <h2>Contact</h2>
-    <p>I'd love to hear from you! Feel free to reach out through email or social media.</p>
-    <a href="mailto:info@mybrand.com" class="contact-button">Email Me</a>
-  </section>
-
+  <!-- Footer -->
   <footer>
     <p>&copy; 2024 MyBrand. All rights reserved.</p>
   </footer>
 </body>
 </html>
-
