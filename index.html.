@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Professional Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for icons (optional) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="logo">MyBrand</a>
+      <ul class="nav-menu">
+        <li><a href="#section1">Home</a></li>
+        <li><a href="#section2">Products</a></li>
+        <li><a href="#section3">Services</a></li>
+        <li><a href="#section4">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Experience Innovation</h1>
+      <p>The future is here. Discover what's possible.</p>
+      <a href="#section2" class="cta-button">Explore Now</a>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="section2" class="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <!-- Product Item -->
+      <div class="product-item">
+        <img src="https://via.placeholder.com/300x200" alt="Product 1">
+        <h3>Product One</h3>
+        <p>A brief description of the product.</p>
+        <a href="#" class="learn-more">Learn More</a>
+      </div>
+      <!-- Repeat for more products -->
+      <!-- ... -->
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="section3" class="services">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <!-- Service Item -->
+      <div class="service-item">
+        <i class="fas fa-cog"></i>
+        <h3>Service One</h3>
+        <p>A brief description of the service.</p>
+      </div>
+      <!-- Repeat for more services -->
+      <!-- ... -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="section4" class="contact">
+    <h2>Contact Us</h2>
+    <p>Get in touch for more information.</p>
+    <a href="mailto:info@mybrand.com" class="contact-button">Email Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 MyBrand. All rights reserved.</p>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
