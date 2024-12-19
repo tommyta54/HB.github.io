@@ -1,57 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f3f4f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0073b1;
+            padding: 1rem 2rem;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+
+        nav ul li {
+            cursor: pointer;
+        }
+
+        nav ul li:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+            background-color: #e5e7eb;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero button {
+            background-color: #0073b1;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .hero button:hover {
+            background-color: #005f90;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #0073b1;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="navbar-container">
-      <a href="index.html" class="logo">MyBrand</a>
-      <ul class="nav-menu">
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="webdev.html">Web Development</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
 
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="hero-content">
-      <h1>Welcome to My Portfolio</h1>
-      <p>Your one-stop hub for all my projects, blogs, and expertise.</p>
-      <a href="portfolio.html" class="cta-button">Explore Portfolio</a>
-    </div>
-  </header>
+    <section class="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Showcasing my expertise in mobile app development, software, and website design.</p>
+        <button onclick="alert('Learn More Coming Soon!')">Learn More</button>
+    </section>
 
-  <!-- Highlights -->
-  <section class="highlights">
-    <h2>What You'll Find</h2>
-    <div class="highlight-grid">
-      <div class="highlight-item">
-        <h3>Beginner Projects</h3>
-        <p>Step into my journey with foundational projects.</p>
-      </div>
-      <div class="highlight-item">
-        <h3>Intermediate Projects</h3>
-        <p>See how I’ve leveled up with robust applications.</p>
-      </div>
-      <div class="highlight-item">
-        <h3>Advanced Projects</h3>
-        <p>Explore high-end, production-ready solutions.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2024 MyBrand. All rights reserved.</p>
-  </footer>
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+
